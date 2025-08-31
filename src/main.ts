@@ -23,6 +23,8 @@ const logger = new Logger('Main-Gateway');
 
   await app.listen( envs.port );
 
+  console.log('Hola');
+
   logger.log(`Gateway running on port ${ envs.port }`);
 
 }
